@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#3B18FFFF"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/poet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:text="Mirza Galib"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="18sp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/poetry_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:text="@string/shayari1"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/poetry_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="20dp"
+        android:text="29-July-2024"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center_vertical|right"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="Update"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="#69F0AE"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="Delete"
+            android:background="#69F0AE"
+            android:textColor="@color/black"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
